@@ -1,0 +1,271 @@
+/*Responsive CSS*/
+
+@media only screen and (min-width: 0px) and (max-width: 767px){}
+
+@media only screen and (min-width: 1000px) and (max-width: 1090px){
+.headerNav{float: left; text-align: left; margin: 20px 0px 0px 0px;}
+.headerNav a{margin: 0px 4px;}	
+.headerNav .lblCart{margin-left: 0px;}
+.CardDetails form .form-group{width:33.33%;}
+}
+@media only screen and (min-width: 900px) and (max-width: 991px){
+.headerNav{float: left; text-align: left; margin: 20px 0px 0px 0px;}
+.headerNav a{margin: 0px 4px;}
+.logoSection .col-md-3:last-child{padding: 0px}	
+.headerNav .lblCart{margin-left: 0px;}
+.searchBox{margin: 15px 0px 10px 0px;}	
+.hedphone{float: left; margin-right: 10px;}
+.queDetails{display: inline;}
+.queDetails span{font-size: 14px;}
+.CardDetails form .form-group{width:33.33%;}
+}
+@media only screen and (min-width: 800px) and (max-width: 899px){
+.headerNav{float: left; text-align: left; margin: 20px 0px 0px 0px;}
+.headerNav a{margin: 0px 4px;}	
+.headerNav .lblCart{margin-left: 0px;}
+.searchBox{margin: 15px 0px 10px 0px;}
+.logoSection .col-md-3:last-child{padding: 0px}
+.bestsellersBox .productBox{width: 50%;}
+.productDetail .productBox{width: 33.33%;}	
+.hedphone{float: left; margin-right: 10px;}
+.queDetails{display: inline;}
+.queDetails span{font-size: 14px;}
+.greenRibbon label{font-size: 12px;}
+.addressColumn .setAs{padding: 8px 8px;}
+.CardDetails form .form-group{width:33.33%;}
+}
+@media only screen and (min-width: 768px) and (max-width: 799px){
+.headerNav{float: left; text-align: left; margin: 20px 0px 0px 0px;}
+.headerNav a{margin: 0px 4px;}	
+.headerNav .lblCart{margin-left: 0px;}
+.searchBox{margin: 15px 0px 10px 0px;}
+.logoSection .col-md-3{padding-right:  0px;}
+.logoSection .col-md-3:last-child{padding: 0px}
+.productDetail .productBox {width:33.33%;}
+.bestsellersBox .productBox{width: 50%;}
+.findFast li{width: 100%;}
+
+
+.hedphone{float: left; margin-right: 10px;}
+.queDetails{display: inline;}
+.queDetails span{font-size: 14px;}
+.contactInfo{padding-top: 0px;}
+.social li a{padding: 10px 10px;}
+.greenRibbon label{font-size: 12px;}
+
+/*** shop grid**/
+.cartbtnBox .newsltrBox{width: 50%; margin-bottom: 10px;} 
+
+.addressColumn .setAs{padding: 8px 8px;}
+
+.CardDetails form .form-group{width:33.33%;}
+
+}
+@media only screen and (min-width: 640px) and (max-width: 767px){
+.topLink .float-right{float: left !important;}	
+.topNavList li{margin: 0px;padding: 5px 20px;}
+.topNavList{width: 100%;}
+.topNavList li a{font-size: 12px;} 
+.topNavList li i{margin-right: 5px;}
+.logoSection a.logo{display: block; text-align: center;} 
+.searchBox{margin: 10px 0px 10px 0px;}
+.headerNav{margin:0px 0px 15px 0px;text-align: center;} 
+.productDetail .productBox{width: 50%;}
+.bestsellersBox .productBox{width: 50%; padding: 5px 5px;}
+.copyright .copyrightText{    display: block;text-align: center;margin-bottom: 10px;}
+.greenRibbon{text-align: center;}
+.greenRibbon p{margin: 0px 0px 5px 0px;}
+.company{text-align: center;} 	
+/*** shop grid**/
+.cartbtnBox .newsltrBox{width: 50%; margin-bottom: 10px;} 
+
+
+.Orbox{position: relative;width: 100%;height: auto;clear: both;text-align: center;left: 0px;margin: 25px 0px;float: left;}
+.Orbox hr{width: 100%;height: 0px;left: 0px;top: 50%;}
+
+.CardDetails form .form-group{width:33.33%;}
+.findFast li{width: 100%;}
+
+}
+@media only screen and (min-width: 600px) and (max-width: 639px){
+.topLink .float-right{float: left !important;}	
+.topNavList li{margin: 0px;padding: 5px 20px;}
+.topNavList{width: 100%;}
+.topNavList li a{font-size: 12px;} 
+.topNavList li i{margin-right: 5px;}
+.logoSection a.logo{display: block; text-align: center;} 
+.searchBox{margin: 10px 0px 10px 0px;}
+.headerNav{margin:0px 0px 15px 0px;text-align: center;} 
+.productDetail .productBox{width: 50%;}
+.bestsellersBox .productBox{width: 100%; padding: 5px 0px;}
+.copyright .copyrightText{    display: block;text-align: center;margin-bottom: 10px;}
+.greenRibbon{text-align: center;}
+.greenRibbon p{margin: 0px 0px 5px 0px;}
+.company{text-align: center;}
+
+/*** shop grid**/
+.cartbtnBox .newsltrBox{width: 50%; margin-bottom: 10px;} 
+
+
+.signReg{padding: 0px 0%;}
+.Orbox{position: relative;width: 100%;height: auto;clear: both;text-align: CENTER;left: 0px;margin: 25px 0px;float: left;}
+.Orbox hr{width: 100%;height: 0px;left: 0px;top: 50%;}
+
+.CardDetails form .form-group{width:33.33%;}
+.cardsBox .CDlogo .cardimg{width: 100px ! important;}
+.findFast li{width: 100%;}
+
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 599px){
+.topLink .float-right{float: left !important;}	
+.topNavList li{margin: 0px;padding: 5px 5px;}
+.topNavList{width: 100%; padding-top: 0px;}
+.topNavList li a{font-size: 12px;} 
+.topNavList li i{margin-right: 5px;}
+.logoSection a.logo{display: block; text-align: center;} 
+.searchBox{margin: 10px 0px 10px 0px;}
+.headerNav{margin:0px 0px 15px 0px;text-align: center;} 
+.productDetail .productBox{width: 50%;}
+.bestsellersBox .productBox{width: 100%;}
+.copyright .copyrightText{    display: block;text-align: center;margin-bottom: 10px;}
+.greenRibbon{text-align: center;}
+.greenRibbon p{margin: 0px 0px 5px 0px;}
+.company{text-align: center;}
+
+/*** shop grid**/
+.cartbtnBox .newsltrBox{width: 100%; margin-bottom: 10px;}
+.sectionright .headdingBox{margin:0px 0px 10px 0px;}
+.headdingBox .showResult{top: 7px;}
+.dropSection{width: 100%;}
+.dropSection .dropdownhead{width: 100%; margin-bottom: 5px;}
+.pageGrid .float-right{float: left !important; width: 100%;} 
+.pageGrid .float-right .pageSection{text-align: center;}
+.pageingBox {margin-top: 0px; border-top: 0px;     padding: 20px 0px 0px 0px;}
+.pageingBox .dropdownhead{width: 100%; margin-bottom: 5px; }
+.pageingBox .showResult{width: 100%; margin-bottom: 5px;}
+.pagination{float: left;}
+
+
+.chainGrid .chainGridBox li{ display: none; }
+.chainGrid .chainGridBox li:first-child,
+.chainGrid .chainGridBox li:last-child{display: inline-block;}
+
+.signReg{padding: 0px 0%;}
+.Orbox{position: relative;width: 100%;height: auto;clear: both;text-align: CENTER;left: 0px;margin: 25px 0px;float: left;}
+.Orbox hr{width: 100%;height: 0px;left: 0px;top: 50%;}
+
+.CardDetails form .form-group{width: 100%;}
+.cardsBox .CDlogo .cardimg{width: 100px ! important;}
+.CardDetails form .form-group select:last-child{margin-top: 10px !important;}
+}
+
+
+@media only screen and (min-width: 360px) and (max-width: 479px){
+.topNavList li{width: 50%;border-right: 0px; margin: 0px;padding: 5px 5px;}    
+.headerNav{margin:0px 0px 15px 0px;text-align: center;}    
+.topLink .tlLeft{padding-top: 6px;}
+.topLink .tlLeft span{padding: 3px 0px;}
+.logoSection a.logo{display: block; text-align: center;}   
+.searchBox{margin: 10px 0px 10px 0px;}
+.featured .nav-tabs .nav-item{width: 100%; text-align: center; font-size: 14px;}
+.productDetail .productBox{width: 100%; padding: 10px 0px 0px 0px;}
+.bestsellersBox .productBox{width: 100%; padding: 5px 0px;}
+.findFast li{width: 100%; display: block;}
+.gotQuestion{margin-bottom: 25px;}
+.hedphone i{font-size: 42px;}
+.queDetails span{font-size: 14px;}
+.contactInfo{padding-top: 0px;}
+.copyright .copyrightText{    display: block;text-align: center;margin-bottom: 10px;}
+.greenRibbon{text-align: center;}
+.greenRibbon p{margin: 0px 0px 5px 0px;}
+.company{text-align: center;}
+
+.spacialbox1{height: auto;}
+.spacialImg{width: 100%; height: 180px;}
+.spacialDetail{width: 100%;}
+/*** shop grid**/
+.cartbtnBox .newsltrBox{width: 100%; margin-bottom: 10px;}
+.sectionright .headdingBox{margin:0px 0px 10px 0px;}
+.headdingBox .showResult{top: 7px;}
+.dropSection{width: 100%;}
+.dropSection .dropdownhead{width: 100%; margin-bottom: 5px;}
+.pageGrid .float-right{float: left !important; width: 100%;} 
+.pageGrid .float-right .pageSection{text-align: center;}
+.pageingBox {margin-top: 0px; border-top: 0px;     padding: 20px 0px 0px 0px;}
+.pageingBox .dropdownhead{width: 100%; margin-bottom: 5px; }
+.pageingBox .showResult{width: 100%; margin-bottom: 5px;}
+.pagination{float: left;}
+
+
+.chainGrid .chainGridBox li{ display: none; }
+.chainGrid .chainGridBox li:first-child,
+.chainGrid .chainGridBox li:last-child{display: inline-block;}
+
+.signReg{padding: 0px 0%;}
+.Orbox{position: relative;width: 100%;height: auto;clear: both;text-align: CENTER;left: 0px;margin: 25px 0px;float: left;}
+.Orbox hr{width: 100%;height: 0px;left: 0px;top: 50%;}
+
+.CardDetails form .form-group{width: 100%;}
+.cardsBox .CDlogo .cardimg{width: 100px ! important;}
+.CardDetails form .form-group select:last-child{margin-top: 10px !important;}
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 359px){
+.topNavList li{width: 50%;border-right: 0px; margin: 0px;padding: 5px 5px;}    
+.headerNav{margin:0px 0px 15px 0px;text-align: center;}    
+.topLink .tlLeft{padding-top: 6px;}
+.topLink .tlLeft span{padding: 3px 0px;}
+.logoSection a.logo{display: block; text-align: center;}   
+.searchBox{margin: 10px 0px 10px 0px;}
+.featured .nav-tabs .nav-item{width: 100%; text-align: center; font-size: 14px;}
+.productDetail .productBox{width: 100%; padding: 10px 0px 0px 0px;}
+.bestsellersBox .productBox{width: 100%; padding: 5px 0px;}
+.bestsellersBox .imgPart{width: 110px;}
+.bestsellersBox .bestsellersDetail{    width: calc(100% - 110px);}
+.findFast li{width: 100%; display: block;}
+.gotQuestion{margin-bottom: 25px;}
+.hedphone i{font-size: 42px;}
+.queDetails span{font-size: 14px;}
+.contactInfo{padding-top: 0px;}
+.copyright .copyrightText{    display: block;text-align: center;margin-bottom: 10px;}
+.greenRibbon{text-align: center;}
+.greenRibbon p{margin: 0px 0px 5px 0px;}
+.company{text-align: center;}
+
+.spacialbox1{height: auto;}
+.spacialImg{width: 100%; height: 180px;}
+.spacialDetail{width: 100%;}
+/*** shop grid**/
+.cartbtnBox .newsltrBox{width: 100%; margin-bottom: 10px;}
+.sectionright .headdingBox{margin:0px 0px 10px 0px;}
+.headdingBox .showResult{font-size: 10px;top:7px; }
+.dropSection{width: 100%;}
+.dropSection .dropdownhead{width: 100%; margin-bottom: 5px;}
+.pageGrid .float-right{float: left !important; width: 100%;} 
+.pageGrid .float-right .pageSection{text-align: center;}
+.pageingBox {margin-top: 0px; border-top: 0px;     padding: 20px 0px 0px 0px;}
+.pageingBox .dropdownhead{width: 100%; margin-bottom: 5px; }
+.pageingBox .showResult{width: 100%; margin-bottom: 5px;}
+.pagination{float: left;}
+
+
+.chainGrid .chainGridBox li{ display: none; }
+.chainGrid .chainGridBox li:first-child,
+.chainGrid .chainGridBox li:last-child{display: inline-block;}
+
+.signReg{padding: 0px 0%;}
+.Orbox{position: relative;width: 100%;height: auto;clear: both;text-align: CENTER;left: 0px;margin: 25px 0px;float: left;}
+.Orbox hr{width: 100%;height: 0px;left: 0px;top: 50%;}
+.orderserach input{width: 100%; margin:6px 0px;}
+.pastdeta select{width: 100%;}
+.pastdeta p{margin-bottom: 10px;}
+
+.CardDetails form .form-group{width: 100%;}
+.cardsBox .CDlogo .cardimg{width: 100px ! important;}
+.CardDetails form .form-group select:last-child{margin-top: 10px !important;}
+.yourOrderDetail .greenbtn{float: left; margin-top: 10px;}
+}
+

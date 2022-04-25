@@ -1,0 +1,253 @@
+.menu{width:100%; float:left;}
+
+.menu-container {
+       width: 100%;
+    margin: 0 auto;
+   background: #7e9b05;
+    float: left;
+}
+.menuinner-container {
+    
+    margin:0px auto;
+    max-width: 100%;
+    padding:0 15px;
+}
+
+
+
+
+.menu-mobile {
+        display: none;
+    padding: 0;
+    float: left;
+    width: 100%;
+    padding: 10px 15px;
+    color: #fff;
+}
+.menu-mobile:hover{color: #fff;}
+
+.menu-mobile:after {
+        content: "\f0c9";
+       font: normal normal normal 14px/1 FontAwesome;
+    font-size: 20px;
+    padding: 0;
+    float: right;
+    position: relative;
+
+}
+
+.menu-dropdown-icon:before {
+       content: "+";
+    font-family: "Ionicons";
+    display: none;
+    cursor: pointer;
+    float: right;
+    padding: .8em 1em;
+    background: no-repeat;
+    color: #fff;
+}
+
+.menu > ul {
+    margin: 0 auto;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    position: static;
+    /* IF .menu position=relative -> ul = container width, ELSE ul = 100% width */
+    box-sizing: border-box;
+}
+
+.menu > ul:before,
+.menu > ul:after {
+    content: "";
+    display: table;
+}
+
+.menu > ul:after {
+    clear: both;
+}
+
+.menu > ul > li {
+    float: left;
+   
+    padding: 0;
+    margin: 0;
+    border-left: 1px solid #9abd05;
+}
+.menu > ul > li:last-child{
+    border-right:1px solid #9abd05;
+}
+
+.menu > ul > li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    color:#fff;
+    font-size: 14px;
+}
+
+.menu > ul > li:hover {
+       background: #fff;
+     
+}
+    .menu > ul > li:hover a {
+          color:#000;
+    }
+.menu > ul > li > ul {
+    display: none;
+    width: 100%;
+   
+    background: #fff;
+    padding: 6px 0;
+    position: absolute;
+    z-index: 99;
+    left: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+box-shadow: 0 10px 15px #0000002e;
+}
+
+.menu > ul > li > ul:before,
+.menu > ul > li > ul:after {
+    content: "";
+    display: table;
+}
+
+.menu > ul > li > ul:after {
+    clear: both;
+}
+
+.menu > ul > li > ul > li > div{ padding-left:0px;}
+.menu > ul > li > ul > li > div,
+.menu > ul > li > ul > li {
+    margin: 0;
+    padding-bottom: 0;
+    list-style: none;
+    /*width: 25%;*/
+    background: none;
+    float: left;
+	border-bottom: 1px solid #dadada;
+}
+
+.menu > ul > li > ul > li > div a,
+.menu > ul > li > ul > li a {
+    color: #000;
+    padding: 3px;
+    display: block;
+    border-bottom: 1px solid #ccc; font-size:14px;
+
+
+}
+
+.menu > ul > li > ul > li > div > ul,
+.menu > ul > li > ul > li > ul {
+    display: block;
+    padding: 0;
+    margin: 10px 0 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.menu > ul > li > ul > li > div:before,
+.menu > ul > li > ul > li > div:after,
+.menu > ul > li > ul > li > ul:before,
+.menu > ul > li > ul > li > ul:after {
+    content: "";
+    display: table;
+}
+
+.menu > ul > li > ul > li > div:after,
+.menu > ul > li > ul > li > ul:after {
+    clear: both;
+}
+
+.menu > ul > li > ul > li > div > ul > li,
+.menu > ul > li > ul > li > ul > li {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: .8em;
+}
+
+.menu > ul > li > ul > li > div > ul > li a,
+.menu > ul > li > ul > li > ul > li a {
+    border: 0;
+    font-size:12px;
+    color:#33;
+}
+
+.menu > ul > li > ul.normal-sub {
+    width: 300px;
+    left: auto;
+    padding: 0px;
+}
+
+.menu > ul > li > ul.normal-sub > li {
+    width: 100%;
+}
+
+.menu > ul > li > ul.normal-sub > li a {
+    border: 0;
+    padding: 10px 15px;
+}
+.menu > ul > li > ul.normal-sub > li a:hover{ background:#f5f5f5;}
+
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Mobile style's
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media only screen and (max-width: 959px) {
+    .menu-container {
+        width: 100%;
+    }
+    .menu-mobile {
+        display: block;
+    }
+    .menu-dropdown-icon:before {
+        display: block;
+    }
+    .menu > ul {
+        display: none;
+    }
+    .menu > ul > li {
+        width: 100%;
+        float: none;
+        display: block;
+        
+    }
+    .menu > ul > li a {
+           padding: .8em 1.5em;
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid #ddd;
+   
+    }
+    .menu > ul > li > ul {
+        position: relative;
+    }
+    .menu > ul > li > ul.normal-sub {
+        width: 100%;
+    }
+    .menu > ul > li > ul > li {
+        float: none;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .menu > ul > li > ul > li:first-child {
+        margin: 0;
+    }
+    .menu > ul > li > ul > li > ul {
+        position: relative;
+    }
+    .menu > ul > li > ul > li > ul > li {
+        float: none;
+    }
+    .menu .show-on-mobile {
+        display: block;
+        float:left;
+        width:100%;
+    }
+}
